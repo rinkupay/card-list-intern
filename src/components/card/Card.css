@@ -17,11 +17,14 @@
   padding: 20px;
   position: relative;
 }
-.card-title {
+.card-title > h5 {
   font-size: 20px;
   margin-bottom: 10px;
   font-weight: 300;
   transition: all 0.3s ease;
+}
+.card-content {
+  height: 12rem;
 }
 
 /* Default: show image, hide list */
@@ -45,6 +48,7 @@ ul {
 
 .btn > button {
   background-color: #ff8d6e;
+  color: rgb(71, 66, 66);
 }
 
 /* On hover: hide image, show list */
